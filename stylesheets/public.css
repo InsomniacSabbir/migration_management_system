@@ -1,0 +1,474 @@
+body
+{
+  margin:5%;
+  background-color: rgb(68, 73, 75);
+}
+button
+{
+  border-radius: 5pt;
+  background-color: #346E8E;
+  color: #FFFFFF;
+  height: 40px;
+}
+.banner
+{
+  border-radius: 5pt;
+  padding: 1%;
+  background-color: rgb(172, 175, 182);
+  color: rgb(0, 34, 45);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.active{
+  text-decoration: none;
+  background-color: rgb(100, 153, 128);
+  color: rgb(236, 236, 236);
+}
+a{
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+}
+
+.hero-item
+{
+  margin-top: 1px;
+}
+
+.menu-bar
+{
+  padding: 2.5%;
+  list-style-type: none;
+}
+
+.menu-item
+{
+  border-radius: 5pt;
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+}
+
+.footer
+{
+  color: rgb(2, 2, 33);
+  background-color: rgb(14, 214, 185);
+  text-align: center;
+  border-radius: 5pt;
+  margin-top: 2%;
+}
+
+
+
+
+input
+{
+  border-radius: 5pt;
+  height:40px;
+}
+select
+{
+  border-radius: 5pt;
+  height:40px;
+}
+
+#form_area{
+  width:300px;
+  margin:0 auto;
+}
+#select_unit_form
+{
+  width:400px;
+  margin:0 auto;
+  padding:2%;
+  background-color: #778D87;
+}
+#select_unit_form table
+{
+  width:100%;
+  
+}
+#select_unit_form tr
+{
+  width:100%;
+  
+}
+#select_unit_form td
+{
+  width:46%;
+  padding:2%;
+}
+#select_unit_form select
+{
+  width:100%;
+}
+#select_unit_form input
+{
+  width:100%;
+  background-color: #5B9766;
+}
+
+#add_marks_form{
+  width: 400px;
+  margin:0 auto;
+  background-color: #D3CDD6;
+  border-radius: 6px;
+  padding: 2%;
+}
+
+#add_marks_form table{
+  width:100%;
+}
+
+#add_marks_form tr{
+  width: 100%;
+}
+
+#add_marks_form td{
+  width:46%;
+  padding:2%;
+}
+
+#add_marks_form  p{
+  width: 100%;
+  background-color: #8F7665;
+  color: #FFFFFF;
+  border-radius: 6px;
+  height: 40px;
+  text-align: center;
+}
+
+#add_marks_form input
+{
+  width:100%;
+  height: 40px;
+}
+
+#add_marks_form button
+{
+  background-color: #5986B2;
+  width: 100%;
+  height: 40px;
+}
+
+
+#signup_form{
+  width: 400px;
+  margin:0 auto;
+  background-color: #D2D0C5;
+  border-radius: 5px;
+  padding:2%;
+}
+#signup_form table{
+  width:100%;
+}
+
+#signup_form tr{
+  width:100%;
+}
+#signup_form td
+{
+  width:96%;
+  padding: 2%;
+}
+#signup_form select{
+  width:100%;
+}
+#signup_form button
+{
+  width:100%;
+}
+#signup_form input
+{
+  width:100%;
+}
+
+#alert
+{
+  color: #FF0000;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+#sub_form{
+  width:700px;
+  margin:0 auto;
+  background-color: #B4BAB5;
+}
+#sub_form table{
+  width:100%;
+}
+
+#sub_form tr{
+  width:100%;
+}
+#sub_form td
+{
+  width:25%;
+  padding: 2%;
+}
+
+#sub_form input
+{
+  width:100%;
+  height:40px;
+}
+
+#sub_form select
+{
+  width:100%;
+  height:40px; 
+}
+#sub_form button
+{
+  width:100%;
+  height:40px;
+  margin-left:5px;
+  background-color: #426B53;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#add{
+  margin-left:67%;
+  width:155px;
+  height:40px;
+  margin-top: 10px;
+  background-color: #39A680;
+  color: #FFFFFF;
+}
+
+#bio-data{
+  width:700px;
+  padding:2%;
+  margin:0 auto;
+  background-color: #CCCCCC;
+  border-radius: 5px;
+}
+#bio-data table{
+  width:100%;
+}
+
+#bio-data tr{
+  width:100%;
+}
+#bio-data td
+{
+  width:50%;
+  padding:3%;
+}
+#bio-data p{
+  background-color: #546C75;
+  color: #FFFFFF;
+  padding:15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#pass_change{
+  width:700px;
+  padding:2%;
+  margin:0 auto;
+  background-color: #CCD6DE;
+  border-radius: 5px;
+}
+#pass_change table{
+  width:100%;
+}
+
+#pass_change tr{
+  width:100%;
+}
+#pass_change td
+{
+  width:50%;
+  padding:2%;
+}
+#pass_change p{
+  background-color:#2B6476 ;
+  color: #FFFFFF;
+  padding:15px;
+  text-align: center;
+  border-radius: 6px;
+}
+#pass_change button{
+  width: 100%;
+  height: 40px;
+  background-color: #2B6476;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 6px;
+}
+#pass_change input{
+  width: 100%;
+  border-radius: 6px;
+}
+ul
+{
+    list-style-type: none;
+}
+
+#sub_choice{
+  width:400px;
+  padding:2%;
+  margin:0 auto;
+  background-color:#9FABBB;
+  border-radius: 5px;
+}
+#sub_choice button{
+  width: 76%;
+  margin-left: 10%;
+  text-align: center;
+  background-color: #417793;
+  color: #FFFFFF;
+}
+
+#sub_choice li{
+  margin-bottom: 2%;
+  padding:2%;
+  width:80%;
+  height:40px;
+  background-color: #0A82AB;
+  color: #000000;
+  text-align: center;
+  border-radius: 5px;
+}
+#sub_choice p{
+  width: 98%%;
+  height:40px;
+  background-color: #527885;
+  color: #FFFFFF;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 25px;
+  padding-top: 5%;
+  text-align: center;
+}
+
+#head{
+  width: 100%;
+  height: 40px;
+  background-color: #21608C;
+  color: #FEFEFE;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 5%;
+  border-radius: 6px;
+}
+
+#trigger_form{
+  width:400px;
+  padding:2%;
+  margin:0 auto;
+  background-color:#D8EBFB;
+  border-radius: 5px;
+}
+#trigger_form table{
+  width:100%;
+  
+}
+#trigger_form tr{
+  width:100%;
+}
+#trigger_form td{
+  width:96%;
+  padding:2%;
+}
+#trigger_form button{
+  width: 100%;
+  text-align: center;
+
+}
+#trigger_form select{
+  width:100%;
+}
+
+#merit_show{
+  width:70%;
+  padding:2%;
+  margin:0 auto;
+  background-color:#873131;
+  border-radius: 5px;  
+}
+
+#merit_show table{
+  width:100%;
+  
+}
+#merit_show tr{
+  width:100%;
+}
+#merit_show td{
+  width:25%;
+}
+#merit_show p{
+  width:100%%;
+  color: #FFFFFF;
+  text-align: center;
+}
+#btn_form{
+   width:400px;
+  padding:2%;
+  margin:0 auto;
+  background-color:#A3A5A3;
+  border-radius: 5px;
+}
+
+#btn_form table{
+  width: 100%;
+}
+
+#btn_form tr{
+  width: 100%;
+}
+
+#btn_form td{
+  width: 50%;
+  padding:2%;
+}
+
+
+#btn_form button{
+  background-color: #47465E;
+  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-radius: 6px;
+}
+
+#login_form{
+  width:400px;
+  margin:0 auto;
+  background-color: #6D7E7B;
+  border-radius: 5pt;
+  padding:2%;
+}
+#login_form table{
+  width: 100%;
+}
+#login_form tr
+{
+  width: 100%;
+}
+#login_form td
+{
+  width: 96%;
+  padding: 2%;
+}
+#login_form input
+{
+  width:100%;
+  border-radius: 5pt;
+  height:40px;
+}
+#login_form select
+{
+  width:100%;
+  border-radius: 5pt;
+  height:40px;
+}
+#login_form button{
+  width: 100%;
+}
